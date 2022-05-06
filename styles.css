@@ -72,3 +72,27 @@ body{
 button:hover{
     padding: 15px;
 }
+
+
+/* Third Section */
+.third-section{
+    background-color: #e5e7eb;
+    flex-direction: column;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+.third-section p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.third-section b{
+   text-align: right; 
+   padding-right: 500px;
+}
+
+/* TODO Sign up section */
