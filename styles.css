@@ -79,7 +79,7 @@ body{
 }
 
 button:hover{
-    padding: 15px;
+    opacity: 50%;
 }
 
 /* Second section */
@@ -126,4 +126,48 @@ button:hover{
    padding-right: 500px;
 }
 
-/* TODO Sign up section */
+/* Sign up section */
+
+.fourth-section{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bcontainer{
+    display: flex;
+    background-color: #3882F6;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.bcontainer button{
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+    background-color: #3882F6;
+    width: 14%;
+    height: 30%;
+    color: #f9faf8; 
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 50px;
+}
+
+.bcontainer h3{
+    font-size: 24px;
+    color: #f9faf8;    
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.bcontainer p {
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
