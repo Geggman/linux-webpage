@@ -171,3 +171,16 @@ button:hover{
     font-size: 18px;
 }
 
+/* Footer */
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    height: 150px;
+    color: #f9faf8;
+    justify-content: center;
+}
+
+.footer h4{
+    margin: 0;
+    padding: 75px;
+}
