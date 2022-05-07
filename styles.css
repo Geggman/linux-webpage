@@ -1,3 +1,4 @@
+
 body{
     background-color: #ffffff;
     padding: 0;
@@ -21,6 +22,10 @@ body{
     align-items: center;
 }
 
+.header > h1 {
+    font-size: 24px;
+}
+
 .header > img{
     width: 100px;
     height: 100px;
@@ -32,7 +37,10 @@ body{
     list-style-type: none;
     justify-content: flex-end;
     gap: 50px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
+
 
 /* Main section styling */
 .main{
@@ -41,6 +49,7 @@ body{
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
+    padding-left: 200px;
 }
 
 .main > h1 { 
@@ -63,7 +72,7 @@ body{
     width: fit-content;
 }
 
-.main > p{
+.main p{
     inline-size: 500px;
     text-align: center;
     opacity: 0.7;
@@ -73,6 +82,28 @@ button:hover{
     padding: 15px;
 }
 
+/* Second section */
+.distros{
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.distros  img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.distros  h1{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937
+}
 
 /* Third Section */
 .third-section{
